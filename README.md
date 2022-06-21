@@ -2,7 +2,7 @@
 
 Docker Image with Oracle Instant Client installed and Golang' mattn/go-oci8 Oracle driver.
 
-Find it here: https://hub.docker.com/r/schmooser/go-oci8
+Find it here: https://hub.docker.com/r/kennyleelks/go-oci8
 
 ## Preparation
 
@@ -34,7 +34,7 @@ Update version in `Dockerfile` and `oci8.pc`.
 
 ```bash
 
-docker build -t schmooser/go-oci8:1.15 .
+docker build -t kennyleelks/go-oci8:1.18 .
 
 ```
 
@@ -42,7 +42,7 @@ docker build -t schmooser/go-oci8:1.15 .
 ## Login and push to Docker Hub
 
 ```bash
-docker login --username=schmooser
+docker login --username=kennyleelks
 
-docker push schmooser/go-oci8:1.15
+docker push kennyleelks/go-oci8:1.18
 ```
